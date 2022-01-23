@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Birthday Reminder</string>
+    <string name="choose_image">Choose Image</string>
+    <string name="list">BuddyList</string>
+    <string name="add_buddy">Add Friend</string>
+    <string name="DateOfBirth">Select Date</string>
+    <string name="name">Friend Name</string>
+    <string name="namebuddy">Name</string>
+    <string name="todo">TODO</string>
+    <string name="img">img</string>
+    <string name="buddyname">BuddyName</string>
+    <string name="textview">TextView</string>
+    <string name="imgview1">imgview</string>
+    <string name="update">Update</string>
+    <string name="im">im</string>
+    <string name="dp">dp</string>
+</resources>

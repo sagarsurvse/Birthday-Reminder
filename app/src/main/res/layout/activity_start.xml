@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#ffffff"
+    android:layout_height="match_parent"
+    tools:context=".StartActivity">
+
+
+    <ImageView
+        android:id="@+id/ShippingAddressesimgeid"
+        android:layout_width="match_parent"
+        android:src="@drawable/iconb"
+        android:scaleType="fitXY"
+        android:layout_height="400dp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:id="@+id/start"
+        android:background="@drawable/radiuscart2"
+        android:layout_alignParentBottom="true"
+        android:layout_height="291dp"
+        >
+
+
+        <RelativeLayout
+            android:id="@+id/START"
+            android:layout_width="239dp"
+            android:layout_height="48dp"
+            android:gravity="center"
+            android:layout_marginTop="32dp"
+            android:layout_below="@+id/subtitle"
+            android:layout_marginRight="16dp"
+            android:visibility="visible"
+            android:layout_marginLeft="16dp"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/rectangleshape_add"
+            >
+
+            <TextView
+                android:id="@+id/Aadd"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:layout_marginRight="10dp"
+                android:textColor="@color/white"
+                android:text="Get Started"/>
+
+
+
+        </RelativeLayout>
+
+
+
+
+        <TextView
+            android:layout_width = "wrap_content"
+            android:id="@+id/title"
+            android:textSize="31dp"
+            android:textStyle="bold"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="24dp"
+            android:textColor="@color/white"
+            android:layout_marginLeft="16dp"
+            android:layout_height = "wrap_content"
+            android:text="K T Patil College"/>
+
+
+        <TextView
+            android:layout_width = "300dp"
+            android:id="@+id/subtitle"
+            android:textSize="14dp"
+            android:gravity="center"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="14dp"
+            android:textColor="@color/white"
+            android:layout_below="@+id/title"
+            android:layout_height = "wrap_content"
+            android:text="Application made by students"/>
+
+
+
+
+    </RelativeLayout>
+
+</RelativeLayout>
